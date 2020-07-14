@@ -1,0 +1,5 @@
+﻿  enumeration.cpp
+C:\Users\alsee\source\repos\Enumeration_seehuus_2020\Enumeration_seehuus_2020\enumeration.cpp(37,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alsee\source\repos\Enumeration_seehuus_2020\Enumeration_seehuus_2020\enumeration.cpp(44,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alsee\source\repos\Enumeration_seehuus_2020\Enumeration_seehuus_2020\enumeration.cpp(68,20): warning C4018: '<': signed/unsigned mismatch
+  Enumeration_seehuus_2020.vcxproj -> C:\Users\alsee\source\repos\Enumeration_seehuus_2020\Debug\Enumeration_seehuus_2020.exe
