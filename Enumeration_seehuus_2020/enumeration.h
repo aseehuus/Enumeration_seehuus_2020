@@ -2,12 +2,15 @@
 Alex Seehuus, 2020*/
 #include <iostream>
 #include <vector>
+#include <NTL/ZZ.h>
+#include "factorization.h"
 using namespace std;
+using namespace NTL;
 
 
 //a function used to enumerate all divisors given the prime factors
-vector<long> enumerate(vector<long> prime_factors);
+vector<ZZ> enumerate(Factorization factors, ZZ bound);
 
 //print function
-void print(vector<long> to_print);
+void print(vector<ZZ> to_print);
 

@@ -1,24 +1,30 @@
 #include <iostream>
 #include <algorithm>
+#include <vector>
 #include "enumeration.h"
+#include "factorization.h"
+#include "NTL/ZZ.h"
 
 using namespace std;
+using namespace NTL;
+
+vector<ZZ> enumerate(Factorization factors);
+
+void print(vector<ZZ> to_print);
 
 int main() {
 
-	vector<long> vect{ 3, 5, 7 };
-	vector<long> vect1{ 3, 4, 5 };
-	vector<long> vect2{ };
-	vector<long> result{ 1 };
+	Factorization f1; vector<ZZ> p; vector<ZZ> pow;
+	p.push_back(to_ZZ(3));
+	pow.push_back(to_ZZ(3));
+	f1 = Factorization(p, pow);
 	
-	result.resize(6);
-
-	set_union(vect.begin(), vect.end(), vect1.begin(), vect1.end(), result.begin());
+	vector<ZZ> result = enumerate(f1);
 
 	print(result);
 
-	//print(enumerate(vect));
-	//print(enumerate(vect1));
-	//print(enumerate(vect2));
+
+
+
 
 }
