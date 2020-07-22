@@ -21,7 +21,7 @@ Factorization::Factorization(vector<ZZ> input_primes, vector<ZZ> input_powers) {
 vector<ZZ>* Factorization::getPrimes() {
 	return &primes;
 }
-vector<ZZ>* Factorization::getPowers() {
+ vector<ZZ>* Factorization::getPowers() {
 	return &powers;
 }
 
