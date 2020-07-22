@@ -50,7 +50,6 @@ vector<ZZ> enumerate(Factorization factors, ZZ bound) {
 		for (long x = 0; x < tail.size(); ++x) {
 			ZZ y = head * tail.at(x);
 	
-			//use bounds
 			if (y < bound) {
 				div.push_back(y);
 			}
